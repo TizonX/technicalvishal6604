@@ -1,0 +1,116 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: url("vishal\ logo.png");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 70vh;
+    background-position: top 0%  right 20%;
+    background-attachment: scroll;
+}
+.nav
+{
+    justify-content: space-around;
+    width: 60vh;
+    position: relative;
+    top: 5vh;
+    left: 15vh;
+}
+.nav-link
+{
+    color: white;
+    display: block;
+}
+.nav-link:hover
+{
+    color: tomato;
+}
+.col-6
+{
+    /*border: 1px solid white;*/
+    position: relative;
+    top: 30vh;
+}
+.col-6 p
+{
+    color: white;
+    font-size: 40px;
+}
+.col-6 h2
+{
+    color: white;
+    animation: developer 5s steps(23) infinite alternate;
+    animation-timing-function: ease-in-out;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 3px solid white;
+    margin-left: 20vh;
+}
+@keyframes developer
+{
+    0%
+    {
+        width: 0ch;
+    }
+    100%
+    {
+        width: 23ch;
+    }
+}
+@media (max-width:576px)
+{
+    .nav
+    {
+        top: 3vh;
+        left: 5vh;
+    }
+    .col-6 h2
+    {
+        margin-left: 0vh;
+    }   
+}
+.col-6 button
+{ 
+    border-radius: 25%;
+    border-color: rgb(255, 0, 0);
+    color: rgb(255, 0, 0);
+    background: transparent;
+    padding: 18px 30px;
+    box-shadow: 2px 3px 10px rgb(255, 0, 0);
+    font-size: 20px;
+}
+/* about section started */
+.container-fluid
+{
+   /* border: 1px solid red;*/
+    margin-top: 60vh;
+    margin-bottom: 10vh;
+}
+
+ h3,h5 
+{
+    color: white;
+    font-size: 30px;
+}
+p1
+{
+    color: white;
+    font-size: 20px;
+}
+.col button
+{ 
+    height: 20vh;
+    width: 20vh;
+    border-radius: 50%;
+    border-color: (228, 130, 228);
+    color: rgb(0, 156, 109);
+    background: transparent;
+    box-shadow: 1px 3px 10px rgb(0, 156, 109);
+    font-size: 40px;
+    border:n;
+}
